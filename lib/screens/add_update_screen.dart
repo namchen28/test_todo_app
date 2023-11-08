@@ -4,7 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
 import 'package:todo_test/bloc/todo_bloc.dart';
 import 'package:todo_test/database/db_handler.dart';
-import 'package:todo_test/local_notification.dart';
+import 'package:todo_test/notification/local_notification.dart';
 import 'package:todo_test/screens/todo_screen.dart';
 import 'package:todo_test/model/todo_model.dart';
 

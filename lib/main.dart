@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:todo_test/bloc/todo_bloc.dart';
-import 'package:todo_test/bloc_export.dart';
-import 'package:todo_test/local_notification.dart';
+import 'package:todo_test/bloc/bloc_export.dart';
+import 'package:todo_test/notification/local_notification.dart';
 import 'package:todo_test/screens/todo_screen.dart';
 
 void main() {
