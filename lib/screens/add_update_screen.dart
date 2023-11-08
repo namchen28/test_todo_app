@@ -60,7 +60,6 @@ class _AddUpdateTaskState extends State<AddUpdateTask> {
 
   @override
   Widget build(BuildContext context) {
-    DateTime _selectedDueDate = DateTime.now();
     String formattedDueDate =
         DateFormat('EEEE, dd/MM/yyyy').add_jm().format(_selectedDueDate);
 

@@ -24,7 +24,9 @@ class MainApp extends StatelessWidget {
       theme: ThemeData(
         textTheme: const TextTheme(),
         floatingActionButtonTheme: const FloatingActionButtonThemeData(
-            backgroundColor: CupertinoColors.activeOrange),
+          backgroundColor: CupertinoColors.systemOrange,
+          elevation: 10,
+        ),
         scaffoldBackgroundColor: CupertinoColors.lightBackgroundGray,
         appBarTheme: const AppBarTheme(
           backgroundColor: CupertinoColors.activeOrange,
